@@ -33,8 +33,11 @@ header h1 {
     margin-top: 20%;
 }
 
-header nav ul {
+ul{
     list-style: none;
+}
+
+header nav ul {
     margin-left: 27%;
 }
 
@@ -85,4 +88,32 @@ main h1{
 
 .trois span{
     font-size: 1.1rem;
+}
+
+
+.sect2{
+    border-top: 5rem solid black;
+    margin-top: 7rem;
+}
+
+.sect2 figure img{
+    height: 20rem;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    margin-left: 30rem;
 }
