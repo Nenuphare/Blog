@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Voyage</title>
+    <link rel="stylesheet" href="./home.css"> 
 </head>
-<body id="home">
-    <head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Blog de Voyage</h1>
+    </header>
 
-    </head>
+    <section class="featured-post">
+        <h2>Article en Vedette</h2>
+        <article>
+            <img src="image-article.jpg" alt="Image de l'article en vedette">
+            <h3>Titre de l'article en vedette</h3>
+            <p>Un court extrait de l'article en vedette. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+    </section>
+
+    <section class="recent-posts">
+        <h2>Articles Récents</h2>
+        <div class="post">
+            <img src="image-article1.jpg" alt="Image de l'article 1">
+            <h3>Titre de l'article 1</h3>
+            <p>Un court extrait de l'article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Lire la suite</a>
+        </div>
+        <div class="post">
+            <img src="image-article2.jpg" alt="Image de l'article 2">
+            <h3>Titre de l'article 2</h3>
+            <p>Un court extrait de l'article 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Lire la suite</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Blog de Voyage. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>

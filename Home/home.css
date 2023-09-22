@@ -1,0 +1,145 @@
+/* Réinitialisation des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-image: url("./assets/background.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styles pour la bannière en vedette */
+.featured-post {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-post h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.featured-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.featured-post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-post p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.featured-post a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.featured-post a:hover {
+    background-color: #555;
+}
+
+/* Styles pour les articles récents */
+.recent-posts {
+    padding: 20px;
+    text-align: center;
+}
+
+.recent-posts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.post a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.post a:hover {
+    background-color: #555;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
