@@ -114,6 +114,15 @@ footer a{
     text-decoration: none;
 }
 
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    margin-right: 3rem;
+}
+
 footer p{
     margin-left: 30rem;
 }
