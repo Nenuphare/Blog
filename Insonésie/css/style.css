@@ -1,0 +1,25 @@
+img{
+    max-width: 80%;
+    min-width: 75%;
+}
+
+div{
+    max-width: 30%;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 15px 0;
+}
+
+p{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+section{
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
